@@ -1,0 +1,1401 @@
+<!doctype html>
+<html lang="tr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Grilli - Harika & Lezzetli Yemekler | Hexa Dijital</title>
+    <meta name="title" content="Grilli - Harika & Lezzetli Yemekler" />
+    <meta
+      name="description"
+      content="Hexa Dijital tarafından çevrilmiş ve düzenlenmiş premium restoran şablonu."
+    />
+
+    <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&family=Forum&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="./assets/css/style.css" />
+
+    <link rel="preload" as="image" href="./assets/images/hero-slider-1.jpg" />
+    <link rel="preload" as="image" href="./assets/images/hero-slider-2.jpg" />
+    <link rel="preload" as="image" href="./assets/images/hero-slider-3.jpg" />
+  </head>
+
+  <body id="top">
+    <div class="preload" data-preaload>
+      <div class="circle"></div>
+      <p class="text">Grilli</p>
+    </div>
+
+    <div class="topbar">
+      <div class="container">
+        <address class="topbar-item">
+          <div class="icon">
+            <ion-icon name="location-outline" aria-hidden="true"></ion-icon>
+          </div>
+
+          <span class="span"> Bursa </span>
+        </address>
+
+        <div class="separator"></div>
+
+        <div class="topbar-item item-2">
+          <div class="icon">
+            <ion-icon name="time-outline" aria-hidden="true"></ion-icon>
+          </div>
+
+          <span class="span">Her Gün : 08:00 - 22:00</span>
+        </div>
+
+        <div class="separator"></div>
+
+        <a href="mailto:bilgi@hexadijital.com" class="topbar-item link">
+          <div class="icon">
+            <ion-icon name="mail-outline" aria-hidden="true"></ion-icon>
+          </div>
+
+          <span class="span">bilgi@hexadijital.com</span>
+        </a>
+      </div>
+    </div>
+
+    <header class="header" data-header>
+      <div class="container">
+        <a href="#" class="logo">
+          <img
+            src="./assets/images/logo.svg"
+            width="160"
+            height="50"
+            alt="Grilli - Ana Sayfa"
+          />
+        </a>
+
+        <nav class="navbar" data-navbar>
+          <button class="close-btn" aria-label="menüyü kapat" data-nav-toggler>
+            <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+          </button>
+
+          <a href="#" class="logo">
+            <img
+              src="./assets/images/logo.svg"
+              width="160"
+              height="50"
+              alt="Grilli - Ana Sayfa"
+            />
+          </a>
+
+          <ul class="navbar-list">
+            <li class="navbar-item">
+              <a href="#home" class="navbar-link hover-underline active">
+                <div class="separator"></div>
+
+                <span class="span">Ana Sayfa</span>
+              </a>
+            </li>
+
+            <li class="navbar-item">
+              <a href="#menu" class="navbar-link hover-underline">
+                <div class="separator"></div>
+
+                <span class="span">Menüler</span>
+              </a>
+            </li>
+
+            <li class="navbar-item">
+              <a href="#about" class="navbar-link hover-underline">
+                <div class="separator"></div>
+
+                <span class="span">Hakkımızda</span>
+              </a>
+            </li>
+
+            <li class="navbar-item">
+              <a href="#" class="navbar-link hover-underline">
+                <div class="separator"></div>
+
+                <span class="span">Şeflerimiz</span>
+              </a>
+            </li>
+
+            <li class="navbar-item">
+              <a href="#" class="navbar-link hover-underline">
+                <div class="separator"></div>
+
+                <span class="span">İletişim</span>
+              </a>
+            </li>
+          </ul>
+
+          <div class="text-center">
+            <p class="headline-1 navbar-title">Bizi Ziyaret Edin</p>
+
+            <address class="body-4">
+              Restoran Cad., Lezzet Şehri, <br />
+              Londra 9578, Birleşik Krallık
+            </address>
+
+            <p class="body-4 navbar-text">Açılış: 09:30 - 14:30</p>
+
+            <a href="mailto:rezervasyon@grilli.com" class="body-4 sidebar-link"
+              >rezervasyon@grilli.com</a
+            >
+
+            <div class="separator"></div>
+
+            <p class="contact-label">Rezervasyon İsteği</p>
+
+            <a class="body-1 contact-number hover-underline">
+              +050 123 45 67
+            </a>
+          </div>
+        </nav>
+
+        <a href="#" class="btn btn-secondary">
+          <span class="text text-1">Masa Bul</span>
+
+          <span class="text text-2" aria-hidden="true">Masa Bul</span>
+        </a>
+
+        <button class="nav-open-btn" aria-label="menüyü aç" data-nav-toggler>
+          <span class="line line-1"></span>
+          <span class="line line-2"></span>
+          <span class="line line-3"></span>
+        </button>
+
+        <div class="overlay" data-nav-toggler data-overlay></div>
+      </div>
+    </header>
+
+    <main>
+      <article>
+        <section class="hero text-center" aria-label="ana sayfa" id="home">
+          <ul class="hero-slider" data-hero-slider>
+            <li class="slider-item active" data-hero-slider-item>
+              <div class="slider-bg">
+                <img
+                  src="./assets/images/hero-slider-1.jpg"
+                  width="1880"
+                  height="950"
+                  alt=""
+                  class="img-cover"
+                />
+              </div>
+
+              <p class="label-2 section-subtitle slider-reveal">
+                Geleneksel & Hijyenik
+              </p>
+
+              <h1 class="display-1 hero-title slider-reveal">
+                Lezzetli yemek <br />
+                aşkına
+              </h1>
+
+              <p class="body-2 hero-text slider-reveal">
+                Ailenizle gelin ve ağız sulandıran yemeklerin keyfini çıkarın.
+                (Hexa Dijital kalitesiyle)
+              </p>
+
+              <a href="#" class="btn btn-primary slider-reveal">
+                <span class="text text-1">Menümüzü İnceleyin</span>
+
+                <span class="text text-2" aria-hidden="true"
+                  >Menümüzü İnceleyin</span
+                >
+              </a>
+            </li>
+
+            <li class="slider-item" data-hero-slider-item>
+              <div class="slider-bg">
+                <img
+                  src="./assets/images/hero-slider-2.jpg"
+                  width="1880"
+                  height="950"
+                  alt=""
+                  class="img-cover"
+                />
+              </div>
+
+              <p class="label-2 section-subtitle slider-reveal">
+                keyifli bir deneyim
+              </p>
+
+              <h1 class="display-1 hero-title slider-reveal">
+                Mevsimlerden İlham Alan <br />
+                Lezzetler
+              </h1>
+
+              <p class="body-2 hero-text slider-reveal">
+                Ailenizle gelin ve ağız sulandıran yemeklerin keyfini çıkarın.
+              </p>
+
+              <a href="#" class="btn btn-primary slider-reveal">
+                <span class="text text-1">Menümüzü İnceleyin</span>
+
+                <span class="text text-2" aria-hidden="true"
+                  >Menümüzü İnceleyin</span
+                >
+              </a>
+            </li>
+
+            <li class="slider-item" data-hero-slider-item>
+              <div class="slider-bg">
+                <img
+                  src="./assets/images/hero-slider-3.jpg"
+                  width="1880"
+                  height="950"
+                  alt=""
+                  class="img-cover"
+                />
+              </div>
+
+              <p class="label-2 section-subtitle slider-reveal">
+                harika & lezzetli
+              </p>
+
+              <h1 class="display-1 hero-title slider-reveal">
+                Her lezzetin bir hikaye <br />
+                anlattığı yer
+              </h1>
+
+              <p class="body-2 hero-text slider-reveal">
+                Ailenizle gelin ve ağız sulandıran yemeklerin keyfini çıkarın.
+              </p>
+
+              <a href="#" class="btn btn-primary slider-reveal">
+                <span class="text text-1">Menümüzü İnceleyin</span>
+
+                <span class="text text-2" aria-hidden="true"
+                  >Menümüzü İnceleyin</span
+                >
+              </a>
+            </li>
+          </ul>
+
+          <button
+            class="slider-btn prev"
+            aria-label="önceki slayt"
+            data-prev-btn
+          >
+            <ion-icon name="chevron-back"></ion-icon>
+          </button>
+
+          <button
+            class="slider-btn next"
+            aria-label="sonraki slayt"
+            data-next-btn
+          >
+            <ion-icon name="chevron-forward"></ion-icon>
+          </button>
+
+          <a href="#" class="hero-btn has-after">
+            <img
+              src="./assets/images/hero-icon.png"
+              width="48"
+              height="48"
+              alt="rezervasyon ikonu"
+            />
+
+            <span class="label-2 text-center span">Masa Ayırt</span>
+          </a>
+        </section>
+
+        <section
+          class="section service bg-black-10 text-center"
+          aria-label="hizmetler"
+        >
+          <div class="container">
+            <p class="section-subtitle label-2">Kraliyet Lezzetleri</p>
+
+            <h2 class="headline-1 section-title">En İyisini Sunuyoruz</h2>
+
+            <p class="section-text">
+              Müşterilerimize en kaliteli hizmeti ve unutulmaz lezzetleri sunmak
+              için buradayız. Hexa Dijital olarak her detayda mükemmeli
+              hedefliyoruz.
+            </p>
+
+            <ul class="grid-list">
+              <li>
+                <div class="service-card">
+                  <a href="#" class="has-before hover:shine">
+                    <figure
+                      class="card-banner img-holder"
+                      style="--width: 285; --height: 336"
+                    >
+                      <img
+                        src="./assets/images/service-1.jpg"
+                        width="285"
+                        height="336"
+                        loading="lazy"
+                        alt="Kahvaltı"
+                        class="img-cover"
+                      />
+                    </figure>
+                  </a>
+
+                  <div class="card-content">
+                    <h3 class="title-4 card-title">
+                      <a href="#">Kahvaltı</a>
+                    </h3>
+
+                    <a href="#" class="btn-text hover-underline label-2"
+                      >Menüyü Gör</a
+                    >
+                  </div>
+                </div>
+              </li>
+
+              <li>
+                <div class="service-card">
+                  <a href="#" class="has-before hover:shine">
+                    <figure
+                      class="card-banner img-holder"
+                      style="--width: 285; --height: 336"
+                    >
+                      <img
+                        src="./assets/images/service-2.jpg"
+                        width="285"
+                        height="336"
+                        loading="lazy"
+                        alt="Başlangıçlar"
+                        class="img-cover"
+                      />
+                    </figure>
+                  </a>
+
+                  <div class="card-content">
+                    <h3 class="title-4 card-title">
+                      <a href="#">Başlangıçlar</a>
+                    </h3>
+
+                    <a href="#" class="btn-text hover-underline label-2"
+                      >Menüyü Gör</a
+                    >
+                  </div>
+                </div>
+              </li>
+
+              <li>
+                <div class="service-card">
+                  <a href="#" class="has-before hover:shine">
+                    <figure
+                      class="card-banner img-holder"
+                      style="--width: 285; --height: 336"
+                    >
+                      <img
+                        src="./assets/images/service-3.jpg"
+                        width="285"
+                        height="336"
+                        loading="lazy"
+                        alt="İçecekler"
+                        class="img-cover"
+                      />
+                    </figure>
+                  </a>
+
+                  <div class="card-content">
+                    <h3 class="title-4 card-title">
+                      <a href="#">İçecekler</a>
+                    </h3>
+
+                    <a href="#" class="btn-text hover-underline label-2"
+                      >Menüyü Gör</a
+                    >
+                  </div>
+                </div>
+              </li>
+            </ul>
+
+            <img
+              src="./assets/images/shape-1.png"
+              width="246"
+              height="412"
+              loading="lazy"
+              alt="şekil"
+              class="shape shape-1 move-anim"
+            />
+            <img
+              src="./assets/images/shape-2.png"
+              width="343"
+              height="345"
+              loading="lazy"
+              alt="şekil"
+              class="shape shape-2 move-anim"
+            />
+          </div>
+        </section>
+
+        <section
+          class="section about text-center"
+          aria-labelledby="about-label"
+          id="about"
+        >
+          <div class="container">
+            <div class="about-content">
+              <p class="label-2 section-subtitle" id="about-label">Hikayemiz</p>
+
+              <h2 class="headline-1 section-title">
+                Her Lezzet Bir Hikaye Anlatır
+              </h2>
+
+              <p class="section-text">
+                Yılların getirdiği tecrübe ile hazırladığımız eşsiz lezzetler,
+                en taze malzemelerle sofralarınıza ulaşıyor. Kaliteden ödün
+                vermeden sunduğumuz bu gastronomi yolculuğunda,
+                <strong>Hexa Dijital</strong> ekibi olarak dijital altyapımızla
+                da sizlere en iyi rezervasyon deneyimini sunmaktan gurur
+                duyuyoruz.
+              </p>
+
+              <div class="contact-label">Telefonla Rezervasyon</div>
+
+              <a
+                href="tel:+804001234567"
+                class="body-1 contact-number hover-underline"
+                >+050 123 45 67</a
+              >
+
+              <a href="#" class="btn btn-primary">
+                <span class="text text-1">Daha Fazla Oku</span>
+
+                <span class="text text-2" aria-hidden="true"
+                  >Daha Fazla Oku</span
+                >
+              </a>
+            </div>
+
+            <figure class="about-banner">
+              <img
+                src="./assets/images/about-banner.jpg"
+                width="570"
+                height="570"
+                loading="lazy"
+                alt="hakkımızda afişi"
+                class="w-100"
+                data-parallax-item
+                data-parallax-speed="1"
+              />
+
+              <div
+                class="abs-img abs-img-1 has-before"
+                data-parallax-item
+                data-parallax-speed="1.75"
+              >
+                <img
+                  src="./assets/images/about-abs-image.jpg"
+                  width="285"
+                  height="285"
+                  loading="lazy"
+                  alt=""
+                  class="w-100"
+                />
+              </div>
+
+              <div class="abs-img abs-img-2 has-before">
+                <img
+                  src="./assets/images/badge-2.png"
+                  width="133"
+                  height="134"
+                  loading="lazy"
+                  alt=""
+                />
+              </div>
+            </figure>
+
+            <img
+              src="./assets/images/shape-3.png"
+              width="197"
+              height="194"
+              loading="lazy"
+              alt=""
+              class="shape"
+            />
+          </div>
+        </section>
+
+        <section class="special-dish text-center" aria-labelledby="dish-label">
+          <div class="special-dish-banner">
+            <img
+              src="./assets/images/special-dish-banner.jpg"
+              width="940"
+              height="900"
+              loading="lazy"
+              alt="özel yemek"
+              class="img-cover"
+            />
+          </div>
+
+          <div class="special-dish-content bg-black-10">
+            <div class="container">
+              <img
+                src="./assets/images/badge-1.png"
+                width="28"
+                height="41"
+                loading="lazy"
+                alt="rozet"
+                class="abs-img"
+              />
+
+              <p class="section-subtitle label-2">Özel Yemek</p>
+
+              <h2 class="headline-1 section-title">Istakoz Tortellini</h2>
+
+              <p class="section-text">
+                Özel soslarla harmanlanmış, şefimizin imza yemeği ıstakoz
+                tortellini, damaklarınızda unutulmaz bir tat bırakacak.
+                Kesinlikle denemenizi tavsiye ediyoruz.
+                <i>- Hexa Dijital Önerisi</i>
+              </p>
+
+              <div class="wrapper">
+                <del class="del body-3">40.00 TL</del>
+
+                <span class="span body-1">20.00 TL</span>
+              </div>
+
+              <a href="#" class="btn btn-primary">
+                <span class="text text-1">Tüm Menüyü Gör</span>
+
+                <span class="text text-2" aria-hidden="true"
+                  >Tüm Menüyü Gör</span
+                >
+              </a>
+            </div>
+          </div>
+
+          <img
+            src="./assets/images/shape-4.png"
+            width="179"
+            height="359"
+            loading="lazy"
+            alt=""
+            class="shape shape-1"
+          />
+
+          <img
+            src="./assets/images/shape-9.png"
+            width="351"
+            height="462"
+            loading="lazy"
+            alt=""
+            class="shape shape-2"
+          />
+        </section>
+
+        <section class="section menu" aria-label="menü-etiketi" id="menu">
+          <div class="container">
+            <p class="section-subtitle text-center label-2">Özel Seçimler</p>
+
+            <h2 class="headline-1 section-title text-center">Lezzetli Menü</h2>
+
+            <ul class="grid-list">
+              <li>
+                <div class="menu-card hover:card">
+                  <figure
+                    class="card-banner img-holder"
+                    style="--width: 100; --height: 100"
+                  >
+                    <img
+                      src="./assets/images/menu-1.png"
+                      width="100"
+                      height="100"
+                      loading="lazy"
+                      alt="Akdeniz Salatası"
+                      class="img-cover"
+                    />
+                  </figure>
+
+                  <div>
+                    <div class="title-wrapper">
+                      <h3 class="title-3">
+                        <a href="#" class="card-title">Akdeniz Salatası</a>
+                      </h3>
+
+                      <span class="badge label-1">Mevsimlik</span>
+
+                      <span class="span title-2">25.50 TL</span>
+                    </div>
+
+                    <p class="card-text label-1">
+                      Domates, yeşil dolmalık biber, dilimlenmiş salatalık,
+                      soğan, zeytin ve beyaz peynir.
+                    </p>
+                  </div>
+                </div>
+              </li>
+
+              <li>
+                <div class="menu-card hover:card">
+                  <figure
+                    class="card-banner img-holder"
+                    style="--width: 100; --height: 100"
+                  >
+                    <img
+                      src="./assets/images/menu-2.png"
+                      width="100"
+                      height="100"
+                      loading="lazy"
+                      alt="Fırın Lazanya"
+                      class="img-cover"
+                    />
+                  </figure>
+
+                  <div>
+                    <div class="title-wrapper">
+                      <h3 class="title-3">
+                        <a href="#" class="card-title">Fırın Lazanya</a>
+                      </h3>
+
+                      <span class="span title-2">40.00 TL</span>
+                    </div>
+
+                    <p class="card-text label-1">
+                      Sebzeler, peynirler, kıyma, domates sosu, baharatlar.
+                    </p>
+                  </div>
+                </div>
+              </li>
+
+              <li>
+                <div class="menu-card hover:card">
+                  <figure
+                    class="card-banner img-holder"
+                    style="--width: 100; --height: 100"
+                  >
+                    <img
+                      src="./assets/images/menu-3.png"
+                      width="100"
+                      height="100"
+                      loading="lazy"
+                      alt="Kremalı Balkabağı Çorbası"
+                      class="img-cover"
+                    />
+                  </figure>
+
+                  <div>
+                    <div class="title-wrapper">
+                      <h3 class="title-3">
+                        <a href="#" class="card-title"
+                          >Kremalı Balkabağı Çorbası</a
+                        >
+                      </h3>
+
+                      <span class="span title-2">10.00 TL</span>
+                    </div>
+
+                    <p class="card-text label-1">
+                      Özel baharatlarla harmanlanmış, içinizi ısıtacak taze
+                      balkabağı çorbası.
+                    </p>
+                  </div>
+                </div>
+              </li>
+
+              <li>
+                <div class="menu-card hover:card">
+                  <figure
+                    class="card-banner img-holder"
+                    style="--width: 100; --height: 100"
+                  >
+                    <img
+                      src="./assets/images/menu-4.png"
+                      width="100"
+                      height="100"
+                      loading="lazy"
+                      alt="Wagyu Dana Bonfile"
+                      class="img-cover"
+                    />
+                  </figure>
+
+                  <div>
+                    <div class="title-wrapper">
+                      <h3 class="title-3">
+                        <a href="#" class="card-title">Wagyu Dana Bonfile</a>
+                      </h3>
+
+                      <span class="badge label-1">Yeni</span>
+
+                      <span class="span title-2">39.00 TL</span>
+                    </div>
+
+                    <p class="card-text label-1">
+                      Uzak doğu lezzetleriyle marine edilmiş, en kaliteli dana
+                      eti sunumu.
+                    </p>
+                  </div>
+                </div>
+              </li>
+
+              <li>
+                <div class="menu-card hover:card">
+                  <figure
+                    class="card-banner img-holder"
+                    style="--width: 100; --height: 100"
+                  >
+                    <img
+                      src="./assets/images/menu-5.png"
+                      width="100"
+                      height="100"
+                      loading="lazy"
+                      alt="Peynir Dolgulu Zeytin"
+                      class="img-cover"
+                    />
+                  </figure>
+
+                  <div>
+                    <div class="title-wrapper">
+                      <h3 class="title-3">
+                        <a href="#" class="card-title">Peynir Dolgulu Zeytin</a>
+                      </h3>
+
+                      <span class="span title-2">25.00 TL</span>
+                    </div>
+
+                    <p class="card-text label-1">
+                      Yengeç eti ile avokado, kırmızı soğan, yengeç salatası
+                      dolgulu kırmızı ve yeşil dolmalık biber.
+                    </p>
+                  </div>
+                </div>
+              </li>
+
+              <li>
+                <div class="menu-card hover:card">
+                  <figure
+                    class="card-banner img-holder"
+                    style="--width: 100; --height: 100"
+                  >
+                    <img
+                      src="./assets/images/menu-6.png"
+                      width="100"
+                      height="100"
+                      loading="lazy"
+                      alt="Fırında Levrek"
+                      class="img-cover"
+                    />
+                  </figure>
+
+                  <div>
+                    <div class="title-wrapper">
+                      <h3 class="title-3">
+                        <a href="#" class="card-title">Fırında Levrek</a>
+                      </h3>
+
+                      <span class="span title-2">49.00 TL</span>
+                    </div>
+
+                    <p class="card-text label-1">
+                      Denizden taptaze, şefin özel sebze ve baharat harmanıyla
+                      pişirilmiş hafif lezzet.
+                    </p>
+                  </div>
+                </div>
+              </li>
+            </ul>
+
+            <p class="menu-text text-center">
+              Kış aylarında her gün <span class="span">19:00</span> -
+              <span class="span">21:00</span> arası açıktır.
+            </p>
+
+            <a href="#" class="btn btn-primary">
+              <span class="text text-1">Tüm Menüyü Gör</span>
+
+              <span class="text text-2" aria-hidden="true">Tüm Menüyü Gör</span>
+            </a>
+
+            <img
+              src="./assets/images/shape-5.png"
+              width="921"
+              height="1036"
+              loading="lazy"
+              alt="şekil"
+              class="shape shape-2 move-anim"
+            />
+            <img
+              src="./assets/images/shape-6.png"
+              width="343"
+              height="345"
+              loading="lazy"
+              alt="şekil"
+              class="shape shape-3 move-anim"
+            />
+          </div>
+        </section>
+
+        <section
+          class="section testi text-center has-bg-image"
+          style="
+            background-image: url(&quot;./assets/images/testimonial-bg.jpg&quot;);
+          "
+          aria-label="müşteri yorumları"
+        >
+          <div class="container">
+            <div class="quote">”</div>
+
+            <p class="headline-2 testi-text">
+              Beni o harika akşam yemeğine davet ettiğiniz için teşekkür ederim.
+              Yemekler tek kelimeyle olağanüstüydü. Hexa Dijital olarak
+              ekibimizle sık sık buradayız.
+            </p>
+
+            <div class="wrapper">
+              <div class="separator"></div>
+              <div class="separator"></div>
+              <div class="separator"></div>
+            </div>
+
+            <div class="profile">
+              <img
+                src="./assets/images/testi-avatar.jpg"
+                width="100"
+                height="100"
+                loading="lazy"
+                alt="Sam Jhonson"
+                class="img"
+              />
+
+              <p class="label-2 profile-name">Sam Jhonson</p>
+            </div>
+          </div>
+        </section>
+
+        <section class="reservation">
+          <div class="container">
+            <div class="form reservation-form bg-black-10">
+              <form action="" class="form-left">
+                <h2 class="headline-1 text-center">Online Rezervasyon</h2>
+
+                <p class="form-text text-center">
+                  Rezervasyon talebi için
+                  <a href="tel:+050 123 45 67" class="link">+050 123 45 67</a>
+                  arayabilir veya formu doldurabilirsiniz.
+                </p>
+
+                <div class="input-wrapper">
+                  <input
+                    type="text"
+                    name="name"
+                    placeholder="Adınız"
+                    autocomplete="off"
+                    class="input-field"
+                  />
+
+                  <input
+                    type="tel"
+                    name="phone"
+                    placeholder="Telefon Numaranız"
+                    autocomplete="off"
+                    class="input-field"
+                  />
+                </div>
+
+                <div class="input-wrapper">
+                  <div class="icon-wrapper">
+                    <ion-icon
+                      name="person-outline"
+                      aria-hidden="true"
+                    ></ion-icon>
+
+                    <select name="person" class="input-field">
+                      <option value="1-person">1 Kişi</option>
+                      <option value="2-person">2 Kişi</option>
+                      <option value="3-person">3 Kişi</option>
+                      <option value="4-person">4 Kişi</option>
+                      <option value="5-person">5 Kişi</option>
+                      <option value="6-person">6 Kişi</option>
+                      <option value="7-person">7 Kişi</option>
+                    </select>
+
+                    <ion-icon name="chevron-down" aria-hidden="true"></ion-icon>
+                  </div>
+
+                  <div class="icon-wrapper">
+                    <ion-icon
+                      name="calendar-clear-outline"
+                      aria-hidden="true"
+                    ></ion-icon>
+
+                    <input
+                      type="date"
+                      name="reservation-date"
+                      class="input-field"
+                    />
+
+                    <ion-icon name="chevron-down" aria-hidden="true"></ion-icon>
+                  </div>
+
+                  <div class="icon-wrapper">
+                    <ion-icon name="time-outline" aria-hidden="true"></ion-icon>
+
+                    <select name="time" class="input-field">
+                      <option value="08:00">08 : 00</option>
+                      <option value="09:00">09 : 00</option>
+                      <option value="10:00">10 : 00</option>
+                      <option value="11:00">11 : 00</option>
+                      <option value="12:00">12 : 00</option>
+                      <option value="13:00">13 : 00</option>
+                      <option value="14:00">14 : 00</option>
+                      <option value="15:00">15 : 00</option>
+                      <option value="16:00">16 : 00</option>
+                      <option value="17:00">17 : 00</option>
+                      <option value="18:00">18 : 00</option>
+                      <option value="19:00">19 : 00</option>
+                      <option value="20:00">20 : 00</option>
+                      <option value="21:00">21 : 00</option>
+                      <option value="22:00">22 : 00</option>
+                    </select>
+
+                    <ion-icon name="chevron-down" aria-hidden="true"></ion-icon>
+                  </div>
+                </div>
+
+                <textarea
+                  name="message"
+                  placeholder="Mesajınız"
+                  autocomplete="off"
+                  class="input-field"
+                ></textarea>
+
+                <button type="submit" class="btn btn-secondary">
+                  <span class="text text-1">Masa Ayırt</span>
+
+                  <span class="text text-2" aria-hidden="true">Masa Ayırt</span>
+                </button>
+              </form>
+
+              <div
+                class="form-right text-center"
+                style="
+                  background-image: url(&quot;./assets/images/form-pattern.png&quot;);
+                "
+              >
+                <h2 class="headline-1 text-center">Bize Ulaşın</h2>
+
+                <p class="contact-label">Rezervasyon İsteği</p>
+
+                <a
+                  href="tel:+050 123 45 67"
+                  class="body-1 contact-number hover-underline"
+                  >+050 123 45 67</a
+                >
+
+                <div class="separator"></div>
+
+                <p class="contact-label">Konum</p>
+
+                <address class="body-4">Bursa</address>
+
+                <p class="contact-label">Öğle Yemeği</p>
+
+                <p class="body-4">
+                  Pazartesi - Pazar <br />
+                  11:00 - 14:30
+                </p>
+
+                <p class="contact-label">Akşam Yemeği</p>
+
+                <p class="body-4">
+                  Pazartesi - Pazar <br />
+                  17:00 - 22:00
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="section features text-center" aria-label="özellikler">
+          <div class="container">
+            <p class="section-subtitle label-2">Neden Bizi Seçmelisiniz</p>
+
+            <h2 class="headline-1 section-title">Gücümüz</h2>
+
+            <ul class="grid-list">
+              <li class="feature-item">
+                <div class="feature-card">
+                  <div class="card-icon">
+                    <img
+                      src="./assets/images/features-icon-1.png"
+                      width="100"
+                      height="80"
+                      loading="lazy"
+                      alt="ikon"
+                    />
+                  </div>
+
+                  <h3 class="title-2 card-title">Hijyenik Gıda</h3>
+
+                  <p class="label-1 card-text">
+                    Mutfaklarımızda en yüksek hijyen standartlarını uyguluyoruz.
+                  </p>
+                </div>
+              </li>
+
+              <li class="feature-item">
+                <div class="feature-card">
+                  <div class="card-icon">
+                    <img
+                      src="./assets/images/features-icon-2.png"
+                      width="100"
+                      height="80"
+                      loading="lazy"
+                      alt="ikon"
+                    />
+                  </div>
+
+                  <h3 class="title-2 card-title">Ferah Ortam</h3>
+
+                  <p class="label-1 card-text">
+                    Konforunuz için tasarlanmış harika bir atmosfer sunuyoruz.
+                  </p>
+                </div>
+              </li>
+
+              <li class="feature-item">
+                <div class="feature-card">
+                  <div class="card-icon">
+                    <img
+                      src="./assets/images/features-icon-3.png"
+                      width="100"
+                      height="80"
+                      loading="lazy"
+                      alt="ikon"
+                    />
+                  </div>
+
+                  <h3 class="title-2 card-title">Yetenekli Şefler</h3>
+
+                  <p class="label-1 card-text">
+                    Alanında uzman şeflerimizle damak tadınıza hitap ediyoruz.
+                  </p>
+                </div>
+              </li>
+
+              <li class="feature-item">
+                <div class="feature-card">
+                  <div class="card-icon">
+                    <img
+                      src="./assets/images/features-icon-4.png"
+                      width="100"
+                      height="80"
+                      loading="lazy"
+                      alt="ikon"
+                    />
+                  </div>
+
+                  <h3 class="title-2 card-title">Etkinlik & Parti</h3>
+
+                  <p class="label-1 card-text">
+                    Özel günlerinizde unutulmaz organizasyonlar düzenliyoruz.
+                  </p>
+                </div>
+              </li>
+            </ul>
+
+            <img
+              src="./assets/images/shape-7.png"
+              width="208"
+              height="178"
+              loading="lazy"
+              alt="şekil"
+              class="shape shape-1"
+            />
+
+            <img
+              src="./assets/images/shape-8.png"
+              width="120"
+              height="115"
+              loading="lazy"
+              alt="şekil"
+              class="shape shape-2"
+            />
+          </div>
+        </section>
+
+        <section class="section event bg-black-10" aria-label="etkinlik">
+          <div class="container">
+            <p class="section-subtitle label-2 text-center">
+              Son Güncellemeler
+            </p>
+
+            <h2 class="section-title headline-1 text-center">
+              Yaklaşan Etkinlikler
+            </h2>
+
+            <ul class="grid-list">
+              <li>
+                <div class="event-card has-before hover:shine">
+                  <div
+                    class="card-banner img-holder"
+                    style="--width: 350; --height: 450"
+                  >
+                    <img
+                      src="./assets/images/event-1.jpg"
+                      width="350"
+                      height="450"
+                      loading="lazy"
+                      alt="Gözlerinizle bile yemek isteyeceğiniz eşsiz lezzetler."
+                      class="img-cover"
+                    />
+
+                    <time class="publish-date label-2" datetime="2022-09-15"
+                      >15/09/2026</time
+                    >
+                  </div>
+
+                  <div class="card-content">
+                    <p class="card-subtitle label-2 text-center">
+                      Yemek, Lezzet
+                    </p>
+
+                    <h3 class="card-title title-2 text-center">
+                      Gözlerinizle bile yemek isteyeceğiniz eşsiz lezzetler.
+                    </h3>
+                  </div>
+                </div>
+              </li>
+
+              <li>
+                <div class="event-card has-before hover:shine">
+                  <div
+                    class="card-banner img-holder"
+                    style="--width: 350; --height: 450"
+                  >
+                    <img
+                      src="./assets/images/event-2.jpg"
+                      width="350"
+                      height="450"
+                      loading="lazy"
+                      alt="Gözlerinizle bile yemek isteyeceğiniz eşsiz lezzetler."
+                      class="img-cover"
+                    />
+
+                    <time class="publish-date label-2" datetime="2022-09-08"
+                      >08/09/2026</time
+                    >
+                  </div>
+
+                  <div class="card-content">
+                    <p class="card-subtitle label-2 text-center">
+                      Sağlıklı Gıda
+                    </p>
+
+                    <h3 class="card-title title-2 text-center">
+                      Gözlerinizle bile yemek isteyeceğiniz eşsiz lezzetler.
+                    </h3>
+                  </div>
+                </div>
+              </li>
+
+              <li>
+                <div class="event-card has-before hover:shine">
+                  <div
+                    class="card-banner img-holder"
+                    style="--width: 350; --height: 450"
+                  >
+                    <img
+                      src="./assets/images/event-3.jpg"
+                      width="350"
+                      height="450"
+                      loading="lazy"
+                      alt="Gözlerinizle bile yemek isteyeceğiniz eşsiz lezzetler."
+                      class="img-cover"
+                    />
+
+                    <time class="publish-date label-2" datetime="2022-09-03"
+                      >03/09/2026</time
+                    >
+                  </div>
+
+                  <div class="card-content">
+                    <p class="card-subtitle label-2 text-center">Tarifler</p>
+
+                    <h3 class="card-title title-2 text-center">
+                      Gözlerinizle bile yemek isteyeceğiniz eşsiz lezzetler.
+                    </h3>
+                  </div>
+                </div>
+              </li>
+            </ul>
+
+            <a href="#" class="btn btn-primary">
+              <span class="text text-1">Blogumuzu İnceleyin</span>
+
+              <span class="text text-2" aria-hidden="true"
+                >Blogumuzu İnceleyin</span
+              >
+            </a>
+          </div>
+        </section>
+      </article>
+    </main>
+
+    <footer
+      class="footer section has-bg-image text-center"
+      style="background-image: url(&quot;./assets/images/footer-bg.jpg&quot;)"
+    >
+      <div class="container">
+        <div class="footer-top grid-list">
+          <div class="footer-brand has-before has-after">
+            <a href="#" class="logo">
+              <img
+                src="./assets/images/logo.svg"
+                width="160"
+                height="50"
+                loading="lazy"
+                alt="grilli ana sayfa"
+              />
+            </a>
+
+            <address class="body-4">
+              Restoran Cad., Lezzet Şehri, Londra 9578, Birleşik Krallık
+            </address>
+
+            <a href="mailto:rezervasyon@grilli.com" class="body-4 contact-link"
+              >rezervasyon@grilli.com</a
+            >
+
+            <a href="tel:+88123123456" class="body-4 contact-link"
+              >Rezervasyon İsteği : +88-123-123456</a
+            >
+
+            <p class="body-4">Açılış : 09:00 - 13:00</p>
+
+            <div class="wrapper">
+              <div class="separator"></div>
+              <div class="separator"></div>
+              <div class="separator"></div>
+            </div>
+
+            <p class="title-1">Haberler & Fırsatlar</p>
+
+            <p class="label-1">
+              Bize abone olun ve <span class="span">%25 İndirim</span> kazanın.
+            </p>
+
+            <form action="" class="input-wrapper">
+              <div class="icon-wrapper">
+                <ion-icon name="mail-outline" aria-hidden="true"></ion-icon>
+
+                <input
+                  type="email"
+                  name="email_address"
+                  placeholder="E-posta adresiniz"
+                  autocomplete="off"
+                  class="input-field"
+                />
+              </div>
+
+              <button type="submit" class="btn btn-secondary">
+                <span class="text text-1">Abone Ol</span>
+
+                <span class="text text-2" aria-hidden="true">Abone Ol</span>
+              </button>
+            </form>
+          </div>
+
+          <ul class="footer-list">
+            <li>
+              <a href="#" class="label-2 footer-link hover-underline"
+                >Ana Sayfa</a
+              >
+            </li>
+
+            <li>
+              <a href="#" class="label-2 footer-link hover-underline"
+                >Menüler</a
+              >
+            </li>
+
+            <li>
+              <a href="#" class="label-2 footer-link hover-underline"
+                >Hakkımızda</a
+              >
+            </li>
+
+            <li>
+              <a href="#" class="label-2 footer-link hover-underline"
+                >Şeflerimiz</a
+              >
+            </li>
+
+            <li>
+              <a href="#" class="label-2 footer-link hover-underline"
+                >İletişim</a
+              >
+            </li>
+          </ul>
+
+          <ul class="footer-list">
+            <li>
+              <a href="#" class="label-2 footer-link hover-underline"
+                >Facebook</a
+              >
+            </li>
+
+            <li>
+              <a href="#" class="label-2 footer-link hover-underline"
+                >Instagram</a
+              >
+            </li>
+
+            <li>
+              <a href="#" class="label-2 footer-link hover-underline"
+                >Twitter</a
+              >
+            </li>
+
+            <li>
+              <a href="#" class="label-2 footer-link hover-underline"
+                >Youtube</a
+              >
+            </li>
+
+            <li>
+              <a href="#" class="label-2 footer-link hover-underline"
+                >Google Haritalar</a
+              >
+            </li>
+          </ul>
+        </div>
+
+        <div class="footer-bottom">
+          <p class="copyright">
+            &copy; 2026 Grilli. Tüm Hakları Saklıdır |
+            <a href="https://hexadijital.com" target="_blank" class="link"
+              >Hexa Dijital</a
+            >
+            Tarafından Geliştirildi
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <a
+      href="#top"
+      class="back-top-btn active"
+      aria-label="başa dön"
+      data-back-top-btn
+    >
+      <ion-icon name="chevron-up" aria-hidden="true"></ion-icon>
+    </a>
+
+    <script src="./assets/js/script.js"></script>
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
